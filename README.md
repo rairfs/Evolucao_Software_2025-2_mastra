@@ -100,13 +100,25 @@ output/
 
 ---
 
-##  Modelos de linguagem utilizados
+## 🧠 Utilização dos modelos de linguagem
+
+### Modelos de Linguagem utilizados
 - [tabularisai/multilingual-sentiment-analysis](https://huggingface.co/tabularisai/multilingual-sentiment-analysis)
 - [lxyuan/distilbert-base-multilingual-cased-sentiments-student](https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student)
 - [nlptown/bert-base-multilingual-uncased-sentiment](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment)
 
-## 🔜 Próximos passos
+### Passos necessários
+Para utilização dos modelos de linguagem citados no tópico acima, basta seguir os passos:
+- (Opcional) Criar ambiente virtual Python com o comando ``python3 -m venv venv``
+- (Opcional) Ativar ambiente virtual
+  - Linux (Debian/Ubuntu): ``source/venv/activate``
+  - Windows: ``venv\Scripts\activate``
+- Baixar compilador CUDA: sudo apt install nvidia-cuda-toolkit (Caso esteja usando distribuições Linux baseadas no Debian/Ubuntu)
+- Instalar dependências que estão citadas no arquivo ``requirements.txt`` que se encontra na raiz deste repositório
 
-- Aplicar **modelos de linguagem da Hugging Face** para análise de sentimentos.
+Após configuração do ambiente, é possível realizar a execução dos scripts, onde foram criados um script para cada modelo 
+selecionado. Os scripts estão na pasta ``modelos/``
+
+## 🔜 Próximos passos
 - Gerar **relatórios comparativos** entre os modelos.
 - Avaliar **impactos na evolução do projeto** com base na análise de sentimentos.
