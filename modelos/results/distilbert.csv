@@ -1,0 +1,175 @@
+pr_number,user,comment,positive,neutral,negative
+9490,wardpeet,@coderabbitai  can you make the changes?,0.3037030100822449,0.29032477736473083,0.40597227215766907
+9490,wardpeet,"https://github.com/coderabbitai 
+
+your commments you made
+```
+ beforeEach(() => {
+   vi.mocked(rollup).mockClear();
++  vi.spyOn(process, 'cwd').mockReturnValue(join(import.meta.dirname, '__fixtures__', 'default'));
++  vi.mocked(resolveFrom).mockReset();
+ });
+ ```
+ 
+ and 
+ ```
+ -    // Verify that the analyzer doesn't get stuck in infinite loops
+-    // (test will timeout if there's an infinite loop issue)
++    // Verify that the analyzer doesn't get stuck in infinite loops.
++    // The initialDepsToOptimize map tracks already-analyzed dependencies to prevent re-analysis.
++    // (Test will timeout if there's an infinite loop issue)
+```",0.17591539025306702,0.24110543727874756,0.5829792022705078
+9425,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+9261,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+8985,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+8942,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+8832,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+8815,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+8751,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+8384,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+8375,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+8299,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+7709,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+7438,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+7337,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+6287,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+9447,daneatmastra,"### Edited/Blocked Notification
+
+Renovate will not automatically rebase this PR, because it does not recognize the last commit author and assumes somebody else may have edited the PR.
+
+You can manually request rebase by checking the rebase/retry box above.
+
+ ⚠️ **Warning**: custom changes will be lost.",0.08981585502624512,0.23765183985233307,0.6725322604179382
+9039,daneatmastra,"### Autoclosing Skipped
+
+This PR has been flagged for autoclosing. However, it is being skipped due to the branch being already modified. Please close/delete it manually or report a bug if you think this is in error.",0.15989436209201813,0.2574007511138916,0.5827049016952515
+8746,daneatmastra,"### Autoclosing Skipped
+
+This PR has been flagged for autoclosing. However, it is being skipped due to the branch being already modified. Please close/delete it manually or report a bug if you think this is in error.",0.15989436209201813,0.2574007511138916,0.5827049016952515
+8743,daneatmastra,"### Autoclosing Skipped
+
+This PR has been flagged for autoclosing. However, it is being skipped due to the branch being already modified. Please close/delete it manually or report a bug if you think this is in error.",0.15989436209201813,0.2574007511138916,0.5827049016952515
+9143,daneatmastra,"### Autoclosing Skipped
+
+This PR has been flagged for autoclosing. However, it is being skipped due to the branch being already modified. Please close/delete it manually or report a bug if you think this is in error.",0.15989436209201813,0.2574007511138916,0.5827049016952515
+9325,LekoArts,"Closing as stale, please re-open if you want to continue working on this.",0.4024031460285187,0.2563638687133789,0.3412330150604248
+8673,LekoArts,"Closing as stale, please re-open if you want to continue working on this.",0.4024031460285187,0.2563638687133789,0.3412330150604248
+8444,LekoArts,"Closing as stale, please re-open if you want to continue working on this.",0.4024031460285187,0.2563638687133789,0.3412330150604248
+8309,LekoArts,"Closing as stale, please re-open if you want to continue working on this.",0.4024031460285187,0.2563638687133789,0.3412330150604248
+8026,LekoArts,"Closing as stale, please re-open if you want to continue working on this.",0.4024031460285187,0.2563638687133789,0.3412330150604248
+7955,LekoArts,"Closing as stale, please re-open if you want to continue working on this.",0.4024031460285187,0.2563638687133789,0.3412330150604248
+7607,LekoArts,Closing as stale,0.3759702444076538,0.23107439279556274,0.39295539259910583
+9489,NikAiyer,"@greptileai Doesn't getThreadsByResourceIdPaginated for most of these stores not support those new ordering parameters? Those will need to be implemented once we finish migrating, hence the todo.",0.1286144107580185,0.24723786115646362,0.6241477131843567
+9481,TylerBarnes,"```suggestion
+      ? [...this.#originalModel]
+```",0.29506537318229675,0.30835866928100586,0.3965759575366974
+9366,abhiaiyer91,We will be making a breaking change.,0.33873990178108215,0.2117728739976883,0.44948720932006836
+9448,mfrachet,this is not needed as it should only happen when a user triggers an action => client side only,0.18323570489883423,0.3429969549179077,0.47376734018325806
+9448,mfrachet,"useLayoutEffect might be better in this case, to try avoiding the visual shift",0.528500497341156,0.21017204225063324,0.26132744550704956
+9206,LekoArts,"When finishing up this PR, please add your changes also to the v1 migration guide (current link: https://github.com/mastra-ai/mastra/blob/main/docs/src/content/en/guides/migrations/upgrade-to-v1.mdx, might change. Search for ""upgrade-to-v1.mdx"" then).",0.4985167384147644,0.23544670641422272,0.2660365700721741
+9469,TylerBarnes,"not related but I think it's a problem that we add all returned messages as `input` source, but that's for another day/PR",0.1237049400806427,0.31752148270606995,0.5587736368179321
+9349,camachoh1,"Thanks for reviewing the changes, @NikAiyer! I forgot to mention it here, but I already implemented the updates Daniel suggested!",0.895169198513031,0.05443501099944115,0.05039583146572113
+9349,camachoh1,"Hey @NikAiyer, Resolved merge conflicts, added the changeset, and confirmed all tests are passing. Thanks! ",0.9136154651641846,0.04032750055193901,0.04605698958039284
+9349,DanielSLew,"Can we reverse these so the default ""ai"" points to 5.x.x, and the alias points to 4.x.x, same with ai-sdk provider",0.3273051977157593,0.2695961594581604,0.4030986428260803
+9347,PaulieScanlon,"Closing this PR, changes have been applied to `main` and `0.x` respectively. 
+- https://github.com/mastra-ai/mastra/pull/9467
+- https://github.com/mastra-ai/mastra/pull/9466",0.4088260233402252,0.23097345232963562,0.3602004647254944
+9037,andersonba,"We noticed this new error because of that change — we have a custom logger that extends `MastraLogger` and expects strings in its methods.
+
+@roaminro @TylerBarnes 
+
+<img width=""613"" height=""202"" alt=""image"" src=""https://github.com/user-attachments/assets/044da765-c7c7-40c0-a7e9-a0879445433e"" />
+
+<img width=""966"" height=""556"" alt=""CleanShot 2025-10-29 at 00 16 45@2x"" src=""https://github.com/user-attachments/assets/c55c6914-a71f-4b8a-b60c-c6b2d22b97f1"" />
+
+---
+
+So, maybe?
+
+```suggestion
+  c.get('mastra').getLogger().error(err.message);
+```",0.23247955739498138,0.18561440706253052,0.5819060206413269

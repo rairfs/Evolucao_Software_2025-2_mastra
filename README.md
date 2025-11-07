@@ -100,6 +100,11 @@ output/
 
 ---
 
+##  Modelos de linguagem utilizados
+- [Multilingual Sentiment Classification Model](https://huggingface.co/tabularisai/multilingual-sentiment-analysis)
+- [distilbert-base-multilingual-cased-sentiments-student](https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student)
+- [bert-base-multilingual-uncased-sentiment](https://huggingface.co/Noxel/sentiments_multilenguaje)
+
 ## 🔜 Próximos passos
 
 - Aplicar **modelos de linguagem da Hugging Face** para análise de sentimentos.
