@@ -101,9 +101,9 @@ output/
 ---
 
 ##  Modelos de linguagem utilizados
-- [Multilingual Sentiment Classification Model](https://huggingface.co/tabularisai/multilingual-sentiment-analysis)
-- [distilbert-base-multilingual-cased-sentiments-student](https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student)
-- [bert-base-multilingual-uncased-sentiment](https://huggingface.co/Noxel/sentiments_multilenguaje)
+- [tabularisai/multilingual-sentiment-analysis](https://huggingface.co/tabularisai/multilingual-sentiment-analysis)
+- [lxyuan/distilbert-base-multilingual-cased-sentiments-student](https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student)
+- [nlptown/bert-base-multilingual-uncased-sentiment](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment)
 
 ## 🔜 Próximos passos
 

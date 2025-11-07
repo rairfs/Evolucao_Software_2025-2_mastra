@@ -1,4 +1,3 @@
-import pandas as pd
 from transformers import pipeline
 import pandas
 
@@ -32,34 +31,5 @@ for index, row in csv.iloc[::1].iterrows():
         #df_final.to_csv("distilbert_result.csv", index=False)
         csvResultToConcat.append(df_final_row)
 
-df_csv_final = pd.concat(csvResultToConcat, ignore_index=True)
+df_csv_final = pandas.concat(csvResultToConcat, ignore_index=True)
 df_csv_final.to_csv("results/distilbert.csv", index=False)
-
-"""
-        df_pivot = df_scores.set_index('label').T
-        df_pivot['pr_number'] = pr_number
-        df_pivot['user'] = user
-        df_pivot['comment'] = comment
-
-        cols = ['pr_number', 'user', 'comment', 'positive', 'neutral', 'negative']
-        df_final = df_pivot[cols]
-
-        df_final.to_csv("distilbert_result.csv", index=False)
-
-# english
-result = distilled_student_sentiment_classifier ("I love this movie and i would watch it again and again!")
-print (result)
-"""
-
-"""
-        resultLine = {
-            "pr_number": pr_number,
-            "user": user,
-            "comment": comment
-        }
-
-        csvResult.append(resultLine)
-
-df = pd.DataFrame(csvResult)
-df.to_csv("results/distilbert.csv", index=False)
-"""
