@@ -35,13 +35,13 @@ A atividade consiste nos seguintes passos:
 
 ---
 
-# Extração dos dados
+## Extração dos dados
 
 Este repositório contém o **script_coleta_prs** utilizado para a atividade da disciplina, cujo objetivo é realizar uma análise de sentimentos em comentários de pull requests de um projeto no GitHub.
 
 O script_coleta_prs **coleta os últimos 100 pull requests fechados** do repositório [`mastra-ai/mastra`](https://github.com/mastra-ai/mastra) e todos os comentários associados a esses PRs. Esta etapa é o **pré-processamento** necessário para que, posteriormente, sejam aplicados **modelos de linguagem da Hugging Face** para análise de sentimentos.
 
-## ⚙️ Pré-requisitos
+### ⚙️ Pré-requisitos
 
 Para executar o script:
 
@@ -67,7 +67,7 @@ Para executar o script:
 
 ---
 
-## 🚀 Como executar
+### 🚀 Como executar
 
 ```bash
 python script_coleta_prs.py
@@ -85,7 +85,7 @@ O script realizará:
 
 ---
 
-## 📂 Estrutura de saída
+### 📂 Estrutura de saída
 
 ```
 output/
@@ -100,14 +100,14 @@ output/
 
 ---
 
-# 🧠 Utilização dos modelos de linguagem
+## 🧠 Utilização dos modelos de linguagem
 
 ### Modelos de Linguagem utilizados
 - [tabularisai/multilingual-sentiment-analysis](https://huggingface.co/tabularisai/multilingual-sentiment-analysis)
 - [lxyuan/distilbert-base-multilingual-cased-sentiments-student](https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student)
 - [nlptown/bert-base-multilingual-uncased-sentiment](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment)
 
-## Passos necessários
+### Passos necessários
 Para utilização dos modelos de linguagem citados no tópico acima, basta seguir os passos:
 - (Opcional) Criar ambiente virtual Python com o comando ``python3 -m venv venv``
 - (Opcional) Ativar ambiente virtual
@@ -119,13 +119,13 @@ Para utilização dos modelos de linguagem citados no tópico acima, basta segui
 Após configuração do ambiente, é possível realizar a execução dos scripts, onde foram criados um script para cada modelo 
 selecionado. Os scripts estão na pasta ``modelos/``
 
-# 📊 Resultados e Conclusões
+## 📊 Resultados e Conclusões
 Os relatórios comparativos entre os três modelos de linguagem foram gerados e analisados.  
 Eles incluem métricas de desempenho, distribuição de sentimentos e discussões sobre o impacto dos comentários dos pull requests na evolução do projeto `mastra-ai/mastra`.
 
-Todos os resultados e análises detalhadas estão documentados no arquivo [`tutorial.pdf`](./tutorial.pdf) e apresentados no vídeo explicativo da equipe.
+Todos os resultados e análises detalhadas estão documentados no arquivo [`tutorial.pdf`](./Tutorial.pdf) e apresentados no vídeo explicativo da equipe.
 
-# 📘 Documentação e Apresentação
-📄 **[Abrir tutorial.pdf](./tutorial.pdf)**  
+## 📘 Documentação e Apresentação
+📄 **[Abrir tutorial.pdf](./Tutorial.pdf)**  
 🎥 **[Assistir vídeo explicativo](https://drive.google.com/file/d/1vvefJrh5ymyZoTQ8vnuRpoKitxm8f7b-/view)**
 
