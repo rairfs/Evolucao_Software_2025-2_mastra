@@ -119,6 +119,16 @@ Para utilização dos modelos de linguagem citados no tópico acima, basta segui
 Após configuração do ambiente, é possível realizar a execução dos scripts, onde foram criados um script para cada modelo 
 selecionado. Os scripts estão na pasta ``modelos/``
 
+### Configurações do Sistema onde foram executadas os modelos
+
+| Categoria | Especificação |
+| :--- | :--- |
+| Sistema operacional | Linux Mint 22.2 Cinnamon |
+| Processador | AMD Ryzen 5 5600G |
+| Memória | 24GB Ram DDR4 |
+| Placa de vídeo | NVidia GeForce RTX 4060 |
+| Armazenamento | SSD 1TB Goldenfir |
+
 ## 📊 Resultados e Conclusões
 Os relatórios comparativos entre os três modelos de linguagem foram gerados e analisados.  
 Eles incluem métricas de desempenho, distribuição de sentimentos e discussões sobre o impacto dos comentários dos pull requests na evolução do projeto `mastra-ai/mastra`.
@@ -127,5 +137,5 @@ Todos os resultados e análises detalhadas estão documentados no arquivo [`tuto
 
 ## 📘 Documentação e Apresentação
 📄 **[Abrir tutorial.pdf](./Tutorial.pdf)**  
-🎥 **[Assistir vídeo explicativo](https://drive.google.com/file/d/1vvefJrh5ymyZoTQ8vnuRpoKitxm8f7b-/view)**
+🎥 **[Assistir vídeo explicativo](https://drive.google.com/file/d/1X6PC8X-GfMCq74bKwMuplOPSm_izBcy5/view?usp=sharing)**
 
